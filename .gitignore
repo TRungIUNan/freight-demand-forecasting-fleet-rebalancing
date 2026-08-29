@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment / secrets
+.env
+.env.*
+*.env
+
+# Raw datasets
+data/raw/*
+!data/raw/.gitkeep
+
+# Excel datasets
+*.xlsx
+*.xls
+
+# Generated intermediate data
+data/interim/*.parquet
+data/interim/*.csv
+
+# Generated processed data
+data/processed/*.parquet
+data/processed/*.csv
+
+# Generated outputs
+data/outputs/*.csv
+data/outputs/*.parquet
+data/outputs/*.json
+
+# Model artifacts
+models/*
+!models/.gitkeep
+
+*.pkl
+*.pickle
+*.joblib
+*.model
+*.bin
+
+# Logs
+*.log
+logs/
+
+# Cache
+.cache/
+.pytest_cache/
+.mypy_cache/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
